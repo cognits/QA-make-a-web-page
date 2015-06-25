@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Make A Web Page</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div>
+        <!--Table of Contents-->
+        <ol>
+            <li>
+                <a href="#basic-html">Lesson 1: The Basics of the Web and HTML</a>
+                <ul>
+                    <li><a href="#web-works">How the Web Works</a></li>
+                    <li><a href="#html">HTML</a></li>
+                    <li><a href="#tags">Tags and Elements</a></li>
+                    <li><a href="#computers-stupid">Why Computers are Stupid</a></li>
+                    <li><a href="#inline-vs-block">Inline vs Block Elements</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#creating-structure">Lesson 2: Creating a Structured Document with HTML</a>
+                <ul>
+                    <li><a href="#tools">Developer Tools (in the Browser)</a></li>
+                    <li><a href="#tree-like">The "tree-like structure" of HTML</a></li>
+                    <li><a href="#html-boxes">The relationship between indented HTML and boxes</a></li>
+                    <li><a href="#text-editors">Text Editors (for programming)</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#adding-css"></a>
+                <ul>
+                    <li><a href="#avoid-repetition">Avoiding Repetition</a></li>
+                    <li><a href="#css">CSS</a></li>
+                </ul>
+            </li>
+        </ol> <!--End of TOC-->
+
+        <h1>Important Concepts</h1>
+        <div class="unity-concepts">
+            <h2 id="basic-html">Lesson 1: The Basics of the Web and HTML</h2>
+
+            <section>
+                <h2 class="section-title" id="web-works">How the Web Works</h2>
+                <p>The web is a bunch of computers that communicate with each other. When a person goes to a web page like www.google.com, their computer sends a HTTP Request to a server.</p>
+                <p>The server finds the appropriate HTML document and sends it back to the user's computer where a web browser interprets the page and displays it on the user's screen.</p>
+            </section>
+
+            <section>
+                <h2 class="section-title" id="html">HTML</h2>
+                <p>HTML stands for Hypertext Markup Language. HTML documents form the majority of the content on the web.</p>
+                <p>HTML documents contain text content which describes "what you see" and markup which describes "how it looks".</p>
+            </section>
+
+            <section>
+                <h2 class="section-title" id="tags">Tags and Elements</h2>
+                <p>HTML documents are made of HTML elements. When writing HTML, we tell browsers the type of each element by using HTML tags.</p>
+                <p>Some common tags include:</p>
+                <ul>
+                    <li>&lt;body&gt;</li>
+                    <li>&lt;div&gt;</li>
+                    <li>&lt;p&gt;</li>
+                    <li>&lt;em&gt;</li>
+                    <li>&lt;img&gt;</li>
+                    <li>&lt;section&gt;</li>
+                    <li>&lt;ol&gt;</li>
+                    <li>&lt;ul&gt;</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="section-title" id="computers-stupid">Why Computers are Stupid</h2>
+                <p>Computers are stupid because they interpret instructions literally. This makes them very unforgiving since a small mistake by a programmer can cause huge problems in a program.</p>
+            </section>
+
+            <section>
+                <h2 class="section-title" id="inline-vs-block">Inline vs Block Elements</h2>
+                <p>HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.</p>
+            </section>
+        </div> <!--End of .unity-concepts-->
+
+        <div class="unity-concepts">
+            <h2 id="creating-structure">Lesson 2: Creating a Structured Document with HTML</h2>
+            <section>
+                <h2 class="section-title" id="tools">Developer Tools (in the Browser)</h2>
+                <p>HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.</p>
+            </section>
+
+            <section>
+                <h2 class="section-title" id="tree-like">The "tree-like structure" of HTML</h2>
+                <p>The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. You can draw this relationship like a family tree. My mother had multiple children. So did her mother, and so on...</p>
+                <p>In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...</p>
+            </section>
+
+            <section>
+                <h2 class="section-title" id="html-boxes">The relationship between indented HTML and boxes</h2>
+                <p>When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested its corresponding "box" is.</p>
+            </section>
+
+            <section>
+                <h2 class="section-title" id="text-editors">Text Editors (for programming)</h2>
+                <p>When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.</p>
+            </section>
+        </div> <!--End of .unity-concepts-->
+
+        <div class="unity-concepts">
+            <h2 id="adding-css">Lesson 3: Adding CSS Style to HTML Structure</h2>
+            <section>
+                <h2 class="section-title" id="avoid-repetition">Avoiding Repetition</h2>
+                <p>Avoiding repetition is important for a variety of reasons.</p>
+                <p><b>Avoiding Errors:</b> When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.</p>
+                <p><b>Consistency:</b> In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetion, it's now very easy for me to make changes to this style.</p>
+            </section>
+
+            <section>
+                <h2 class="section-title" id="css">CSS</h2>
+                <p>CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.</p>
+            </section>
+            
+        </div> <!--End of .unity-concepts-->
+    </div>
+
+</body>
+</html>
