@@ -1,0 +1,28 @@
+/*Code CSS*/
+body{
+    font-family: 'Indie Flower', cursive;
+}
+/*Format at title*/
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+/*separation of parts content */
+.first-part {
+    background-color: #808080;
+    border-radius: 2px;
+}
+/*Format for separation*/
+.one-definition{
+    background-color: #ffae1a;
+    border-radius: 5px;
+}
+/*Elimination of viñetas at list*/
+.list-css{
+    list-style:none;
+}
+/*Format of h3 titles*/
+h3{
+    color: #e855e8
+}
