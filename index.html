@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="images/HTML5_1Color_Black.png">
+        <title>Make a web page</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/ibs/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/styles.css" rel="stylesheet">
+        <!--Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container">
+            <div class="first-part">
+                <p class="title">Make a Web Page</p>
+            </div>
+            <div class="one-definition"><!--one separation-->
+                <h2>What to take away from this lesson.</h2>
+                <p>The five most important things to take from this lesson are the following:</p>
+                <h3>1 - What a Web Page is</h3>
+                <p>A web page is a text document written in a language called HTML. Web browsers read these documents, and then interpret and display them.</p>
+                <h3>2 - How Coding Works</h3>
+                <p>Coding happens when programmers write text in a language that a computer can understand. The computer can then follow the instructions the programmer wrote. For example, the computer might do this by making text like this:</p>
+                <h3>3 - Computers are Stupid</h3>
+                <p>Programmers need to write exactly the way a computer understands (also known as writing with correct "syntax"). For example, if you forget to close a b-tag, the computer won't be able to figure out what you had intended to make bold. This "stupidity" can be very frustrating, but it also gives programmers incredible power: if you know how to talk to a computer than you can tell it to do anything you want.</p>
+                <h3>4 - Programmers Can't Remember Everything</h3>
+                <p>There are too many details to keep everything in your head. And that's okay. If you forget how to make text italic in HTML, you can always just look it up.</p>
+                <h3>5 - Basic HTML Vocabulary</h3>
+                <p>You will be using HTML in the next few lessons, so it will be helpful if you're comfortable with the jargon.<p>
+                <ul>
+                    <li>Tag: An HTML tag is always contained within angled brackets. Most tags have an opening tag p-tag for example) and a closing tag, p-tag. Some tags (called "void" tags) do not require a closing tag (like the <br> tag).</li>
+                    <li>Element: An HTML element refers to everything within a set of opening and closing tags.</li>
+                    <li>Attribute: This is a property of an HTML element. For example, to set the href attribute of an anchor tag to the Udacity URL, you would write <a href="www.udacity.com">UDACITY</a></li>
+                </ul>
+            </div><!--End one definition-->
+            <div class="one-definition"><!--two separation-->
+                <h2>What to take away from this lesson.</h2>
+                <h3>Inheritance</h3>
+                <p>Inheritance is a key feature in CSS, it relies on the ancestor-descendant relationship to operate. Inheritance is the mechanism by which properties are applied not only to a specified element, but also to its descendants.[11] Inheritance relies on the document tree, which is the hierarchy of (X)HTML elements in a page based on nesting. Descendant elements may inherit CSS property values from any ancestor element enclosing them. In general, descendant elements inherit text-related properties, but box-related properties are not inherited. Properties that can be inherited are color, font, letter-spacing, line-height, list-style, text-align, text-indent, text-transform, visibility, white-space and word-spacing. Properties that cannot be inherited are background, border, display, float and clear, height and width, margin, min- and max-height and -width, outline, overflow, padding, position, text-decoration, vertical-align and z-index.
+                Inheritance prevents certain properties from being declared over and over again in a style sheet, allowing the software developers to write less CSS. It enhances faster-loading of web pages by users and enables the clients to save money on bandwidth and development costs.</p>
+                <p>The complete description can be found here: <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">Wikipedia</a></p>
+                <h3>Avoiding Repetition</h3>
+                <ul>
+                    <li>principle: don’t repeat yourself (DRY)</li>
+                    <li>Based Theory: “Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.”</li>
+                    <li>When applied right a modification of any single element of a system does not require a change in other logically unrelated elements</li>
+                    <li>In HTML and CSS especially CSS offers a great opportunity to avoid this by defining classes that can be added to HTML Tags and if a change is made to CSS automaticaly every HTML Element using this class is changed. This reduces mistakes, forgetting things and writing one and the same thing over and over again in the HTML Code</li>
+                    <li>As an result do not put the styling in the HTML or even worst into the tag. This is NOT scaleable.</li>
+                    <li>Also in HTML when structuring your code build blocks and structure that can be reused and is understandable and easy to read. Othewise you also have a kind of unnecessary repetion and messed up code.</li>
+                </ul>
+                <h3>Structured Code</h3>
+                <ul>
+                    <li>Tree-like View: a page and the tag elements are structured and read by a browser like a tree</li>
+                    <li>The elements are clustered in an hirarchical order</li>
+                    <li>in the code the hirarchies should be visibility for better readability and understanding</li>
+                    <li>the more "down the Tree" an element is the more on top of other elements it is</li>
+                    <li>All is boxes in programming. Think like that and structure this boxes in hirarchy (tree) before you actually start coding and in code. Then you have the right view on the things.</li>
+                    <li>A website structure can be seen in the DOM (Document Oject Model) in the inspecter in the browser</li>
+                </ul>
+                <h3>BoxSizes:</h3>
+                <p>
+                  * {<br>
+                <ol class="list-css">
+                    <li>outline: 1px solid red !important;</li>
+                    <li>-webkit-box-sizing: border-box;</li>
+                    <li>-moz-box-sizing: border-box;</li>
+                    <li>-ms-box-sizing: border-box;</li>
+                    <li>box-sizing: border-box;</li>
+                </ol>
+
+                  <br>}
+                </p>
+                <h3>Box Sizing:</h3>
+                <p>There are four main points that Jessica addressed about box sizing.
+                </p>
+                <p>HTML elements are boxes and each box has 4 components.
+                Because there are so many components to each box, it can often be hard to get the size of a box just right.
+                There are two techniques you can use to help deal with sizing issues.</p>
+                <p>Set sizes in terms of percentages rather than pixels.
+                Set the box-sizing attribute to border-box for every element. 
+                Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.</p>
+                <h3>Box Positioning</h3>
+                <p>Divs are block elements (as opposed to inline), so by default they take up the entire width of a page.
+                Adding the rule display: flex; to the appropriate CSS will override this behavior and let divs appear next to each other.</p>
+                <h3>How to Code HTML/CSS</h3>
+                <ol>
+                    <li>Look for natural Boxes</li>
+                    <li>Look for repeated styles and semantic elements</li>
+                    <li>Look for repeated styles and semantic elements</li>
+                    <li>Write HTML</li>
+                    <li>Apply Styles</li>
+                    <li>Fix Things</li>
+                </ol>
+            </div><!--End second separation-->
+        </div><!--End Container-->
+    </body>
+</html>
