@@ -1,0 +1,53 @@
+
+/*Comments are not needed to pass this stage.*/
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 250%;
+    color: #FFFFFF;
+}
+
+div {
+    width: 100;
+    height: auto;
+}
+
+p {
+    font-size: 170%;
+}
+
+.section-title {
+    font-size: 250%;
+    text-align: center;
+    color: #0E2363;
+}
+
+.unity-concepts {
+    padding: 20px 15px 15px 20px;
+    background-color: #0079A3;
+}
+
+section {
+    padding: 10px;
+    background-color: #C7E9ff;
+}
+
+
+.unity-concepts,
+section {
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+li {
+    font-size: 170%;
+}
+
+ul {
+    font-size: 70%;
+    list-style: none;
+}
