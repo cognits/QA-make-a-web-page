@@ -1,0 +1,76 @@
+body {
+	padding: 30px 20px;
+	font-family: Helvetica;
+	max-width: 2000px;
+	font-size: 1.4em;
+}          
+/* Selected links theme */
+
+.links {
+	text-decoration: none;
+	color: #000000;
+}
+/* Mouse over link theme */
+.links:hover {
+	text-decoration: none; 
+	color: #8b0000;
+}
+/* Link list */ 
+a {
+	text-decoration: none;
+	color: #000000;
+}
+/* Mouse over link list */
+a:hover {
+	text-decoration: none; 
+	color: #176b06;
+} 
+/* Selected link list */
+a:active {
+    color: #660000;
+}
+/* h1 tag used it to put titles, and label text- aling helps me to focus the text.
+This is a "HEX code" for a color. */
+h1 {
+	text-align: center;
+	color: #090e2d;
+}
+p {
+	margin: 10px 0;
+}
+li {
+	font-size: 1.1em;/* em is another unit to specify font sizes. */
+	line-height: 1.8em; 
+}
+/* When a line of CSS begins with a. dot, like in .lesson, it means that the following CSS rules 
+should apply to everything with the corresponding class name (in this case, class="Blocks") */
+.Blocks {
+	background-color: #0a1aff;
+	border-radius: 20px; /* The border-radius gives rounded corners.*/
+	padding: 5px;
+	margin: 10px auto;
+}
+h2 {
+	color: #fff;
+	margin: 10px;
+}
+/* This class is used to be able to give background color to whatever is inside boxes style */
+.concept {
+	background-color: #d9dae5; 
+	padding: 4px;
+	margin: 10px;
+	border-radius: 5px;
+	color: #000000;
+}
+/* Concept-title are all titles */
+.concept-title {
+	font-size: 1.6em; /* Size of song titles */
+	margin: 8px; /* Margin gives the positioning of the title */
+	text-align: center;
+	color: #294860;
+}
+/* Concept-description are all topics descripsiones */
+.concept-description {
+  	font-size: 1.1em;
+	margin: 6px;
+}
