@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Make A Web Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="Themes">
+    <h1>Table of Contents</h1>
+    <!-- Below this is a <ol> element. "ol" stands for "ordered list." -->
+    <ol>
+      <!-- <li> means "list item" -->
+      <li><a href="#Lesson-One">Lesson 1: The Basics of the Web and HTML</a>
+        <!-- Next I add an "unordered list" within the "list item" of my "ordered list" -->
+        <ul>
+          <li><a id="How-Web" href="#Lesson-One-1">How the Web Works</a></li>
+          <li><a id="Html" href="#Lesson-One-2">HTML</a></li>
+          <li><a id="Tags-Elements" href="#Lesson-One-3">Tags and Elements</a></li>
+          <li><a id="Computers-Stupid" href="#Lesson-One-4">Why Computers are Stupid</a></li>
+          <li><a id="Inline-vs-Block" href="#Lesson-One-5">Inline vs Block Elements</a></li>
+        </ul>
+      </li>
+      <li class="Themes"><a href="#Lesson-Two">Lesson 2: Creating a Structured Document with HTML</a>
+        <ul>
+          <li><a id="Developer-Tools" href="#Lesson-Two-1">Developer Tools</a></li>
+          <li><a id="Structure" href="#Lesson-Two-2">HTML's "tree-like" Structure</a></li>
+          <li><a id="Identations" href="#Lesson-Two-3">Indentations and Boxes</a></li>
+          <li><a id="Text-Editors" href="#Lesson-Two-4">Text Editors</a></li>
+        </ul>
+      </li>
+      <li class="Themes"><a href="#Lesson-Three">Lesson 3: Adding CSS Style to HTML Structure</a>
+        <ul>
+          <li><a id="Repetitions" href="#Lesson-Three-1">Avoiding Repetition</a></li>
+          <li><a id="Css" href="#Lesson-Three-2">CSS</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <!-- Comments on the important concept of HTML -->
+  <h1>Important Concepts</h1>
+  <div class="Blocks">
+    <h2 id="Lesson-One">Lesson 1: The Basics of the Web and HTML</h2>
+    <div class="concept" id="Lesson-One-1">
+      <div class="concept-title">
+        <a class="links" href="#How-Web">How the Web Works</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          The web is a bunch of computers that communicate with
+          each other. When a person goes to a web page like
+          <a href="https://www.google.com.gt/" target="blank"><b>www.google.com</b></a>, their computer sends a
+          <em>HTTP Request</em> to
+          a <em>server</em>.
+        </p>
+        <p>
+          The server finds the appropriate HTML document and sends
+          it back to the user's computer where a <em>
+          web browser</em> interprets the page and displays it on
+          the user's screen.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="Lesson-One-2">
+      <div class="concept-title">
+         <a class="links" href="#Html">HTML</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML stands for <em>Hypertext Markup
+          Language.</em> HTML documents form the majority of the
+          content on the web.
+        </p>
+        <p>
+          HTML documents contain <em>text
+          content</em> which describes "what you see" and
+          <em>markup</em> which describes
+          "how it looks".
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="Lesson-One-3">
+      <div class="concept-title">
+        <a class="links" href="#Tags-Elements">Tags and Elements</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML documents are made of HTML
+          <b>elements</b>. When writing HTML, we
+          tell browsers the type of each element by using HTML
+          <b>tags</b>.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="Lesson-One-4">
+      <div class="concept-title">
+        <a class="links" href="#Computers-Stupid">Why Computers are Stupid</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          Computers are stupid because they interpret
+          instructions literally. This makes them very
+          unforgiving since a small mistake by a
+          programmer can cause huge problems in a program.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="Lesson-One-5">
+      <div class="concept-title">
+        <a class="links" href="#Inline-vs-Block">Inline vs Block Elements</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML elements are either <b>inline</b>
+          or <b>block</b>. Block elements form
+          an "invisible box" around the content inside of them.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Comments structured HTML documents -->
+  <div class="Blocks">
+    <h2 id="Lesson-Two">Lesson 2: Creating a Structured Document with HTML</h2>
+    <div class="concept" id="Lesson-Two-1">
+      <div class="concept-title">
+        <a class="links" href="#Developer-Tools">Developer Tools (in the Browser)</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML elements are either <b>inline</b>
+          or <b>block</b>. Block elements form
+          an "invisible box" around the content inside of them.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="Lesson-Two-2">
+      <div class="concept-title">
+        <a class="links" href="#Structure">The <b>"tree-like structure"</b> of HTML</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          The <b>"tree-like structure"</b> comes from the fact that HTML
+          elements can have other elements inside of them. You can
+          draw this relationship like a family tree. My mother
+          had multiple children. So did her mother, and so on...
+        </p>
+        <p>
+          In a browser, this structure shows up as a series
+          of nested boxes. There are boxes inside of boxes
+          inside of boxes, and so on...
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="Lesson-Two-3">
+      <div class="concept-title">
+        <a class="links" href="#Identations">The relationship between indented HTML and boxes</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          When you read an HTML document as
+          <em>text</em>, you see a wave of
+          changing indentations going up and down the left side
+          of the document. The more indented an element is, the
+          more deeply nested its corresponding <b>"box"</b> is.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="Lesson-Two-4">
+      <div class="concept-title">
+        <a class="links" href="#Text-Editors">Text Editors (for programming)</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          When writing code, programmers use special text editors
+          (like Sublime Text for example). These editors make the
+          programmer's life easier. For example, some text editors
+          will automatically generate a closing HTML tag when you
+          write an opening tag.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Comments on the connection of CSS styles in HTML -->
+  <div class="Blocks">
+    <h2 id="Lesson-Three">Lesson 3: Adding CSS Style to HTML Structure</h2>
+    <div class="concept" id="Lesson-Three-1">
+      <div class="concept-title">
+        <a class="links" href="#Repetitions">Avoiding Repetition</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          Avoiding repetition is important for a variety of reasons.
+        </p>
+        <p>
+          <b>Avoiding Errors:</b> When programmers <em>don't</em> avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.
+        </p>
+        <p>
+          <b>Consistency:</b> In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetion, it's now very easy for me to make changes to this style.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="Lesson-Three-2">
+      <div class="concept-title">
+        <a class="Css" href="#Css">CSS</a>
+      </div>
+      <div class="concept-description">
+        <p>
+          CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
