@@ -1,0 +1,47 @@
+/* This class is for the the div where will information */
+.lesson {
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+}
+/* This css is for the title */
+h1{
+    text-align: center;
+    color: black;
+}
+/* This margin is applied to all p tags */
+p{
+    margin: 10px 0;
+}
+/* This h2 is the subtitle of the first lesson */
+h2{
+    margin: 10px;
+}
+/* This class serves for the placement of content */
+.concept{
+    background-color: red;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+/* This class is used to fund where the content will be */
+.concept-title{
+    font-size: 1.6em;
+    margin: 8px;
+    text-align: center;
+    color: black;
+}
+/* This class is for the description */
+.concept-description{
+    font-weight: lighter;
+  	font-size: 1.2em;
+    margin: 6px;
+}
+/* This class is used to link to videos of Udacity */
+.link{
+	text-decoration: none;
+	color: white;
+}
